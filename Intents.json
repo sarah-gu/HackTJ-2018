@@ -1,0 +1,115 @@
+{
+    "languageModel": {
+        "invocationName": "quiz me",
+        "intents": [
+            {
+                "name": "AMAZON.CancelIntent",
+                "slots": [],
+                "samples": []
+            },
+            {
+                "name": "AMAZON.HelpIntent",
+                "slots": [],
+                "samples": []
+            },
+            {
+                "name": "AMAZON.RepeatIntent",
+                "slots": [],
+                "samples": []
+            },
+            {
+                "name": "AMAZON.StartOverIntent",
+                "slots": [],
+                "samples": [
+                    "start game",
+                    "new game",
+                    "start",
+                    "start new game"
+                ]
+            },
+            {
+                "name": "AMAZON.StopIntent",
+                "slots": [],
+                "samples": []
+            },
+            {
+                "name": "AnswerIntent",
+                "slots": [
+                    {
+                        "name": "Answer",
+                        "type": "AMAZON.NUMBER"
+                    }
+                ],
+                "samples": [
+                    "the answer is {Answer}",
+                    "my answer is {Answer}",
+                    "is it {Answer}",
+                    "{Answer} is my answer",
+                    "{Answer}"
+                ]
+            },
+            {
+                "name": "TellMeIntent",
+                "slots": [],
+                "samples": [
+                    "tell me",
+                    "what is the answer",
+                    "what's the answer",
+                    "i dont know tell me",
+                    "give me the answer",
+                    "which one is right",
+                    "tell me please"
+                ]
+            },
+            {
+                "name": "DontKnowIntent",
+                "slots": [],
+                "samples": [
+                    "i don't know",
+                    "don't know",
+                    "skip",
+                    "i don't know that",
+                    "who knows",
+                    "i don't know this question",
+                    "i don't know that one",
+                    "dunno"
+                ]
+            }
+        ],
+        "types": [
+            {
+                "name": "Answer",
+                "values": [
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "1",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "2",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "3",
+                            "synonyms": []
+                        }
+                    },
+                    {
+                        "id": "",
+                        "name": {
+                            "value": "4",
+                            "synonyms": []
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
